@@ -16,6 +16,7 @@
 		8FC59856289654D8003932E4 /* ScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC59855289654D8003932E4 /* ScannerTests.swift */; };
 		8FC59860289654D8003932E4 /* ScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC5985F289654D8003932E4 /* ScannerUITests.swift */; };
 		8FC59862289654D8003932E4 /* ScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC59861289654D8003932E4 /* ScannerUITestsLaunchTests.swift */; };
+		8FC5986F28965518003932E4 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8FC5986E28965518003932E4 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8FC5985B289654D8003932E4 /* ScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC5985F289654D8003932E4 /* ScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerUITests.swift; sourceTree = "<group>"; };
 		8FC59861289654D8003932E4 /* ScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8FC5986E28965518003932E4 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				8FC59842289654D6003932E4 /* ViewController.swift */,
 				8FC59844289654D6003932E4 /* Main.storyboard */,
 				8FC59847289654D8003932E4 /* Assets.xcassets */,
+				8FC5986E28965518003932E4 /* Resnet50.mlmodel */,
 				8FC59849289654D8003932E4 /* LaunchScreen.storyboard */,
 				8FC5984C289654D8003932E4 /* Info.plist */,
 			);
@@ -260,6 +263,7 @@
 			files = (
 				8FC59843289654D6003932E4 /* ViewController.swift in Sources */,
 				8FC5983F289654D6003932E4 /* AppDelegate.swift in Sources */,
+				8FC5986F28965518003932E4 /* Resnet50.mlmodel in Sources */,
 				8FC59841289654D6003932E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JMAGQ5H7TS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Scanner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -449,7 +454,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Scanner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example1.Scanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -464,6 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JMAGQ5H7TS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Scanner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -476,7 +482,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Scanner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example1.Scanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
